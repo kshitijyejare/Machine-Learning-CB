@@ -7,6 +7,7 @@ df = pd.read_csv(r'C:\Users\Kshit\Downloads\homeprices.csv')
 print(df)
 
 
+%matplotlib inline
 plt.xlabel('area')
 plt.ylabel('price')
-plt.scatter(df.area,df.price,colour='red',markers='+')
+plt.scatter(df.area,df.price,color='red',marker='+')
